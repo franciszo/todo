@@ -29,7 +29,7 @@ const read = new Item({
 });
 
 const dance = new Item({
-  name: "<-- click this to delete>"
+  name: "<-- Click this to delete"
 });
 
 const defaultItems = [eat, read, dance];
