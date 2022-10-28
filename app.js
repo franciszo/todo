@@ -21,15 +21,15 @@ const itemSchema ={
 const Item = mongoose.model("Item", itemSchema); 
 
 const eat = new Item({
-  name: "Eating"
+  name: "Welcome to your todolist!"
 });
 
 const read = new Item({
-  name: "Reading"
+  name: "Click + button to add item"
 });
 
 const dance = new Item({
-  name: "Dancing"
+  name: "<-- click this to delete>"
 });
 
 const defaultItems = [eat, read, dance];
